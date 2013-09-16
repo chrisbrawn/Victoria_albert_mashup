@@ -1,0 +1,80 @@
+body {
+	background-color:ghostwhite; 
+}
+
+#gImage {
+	display:block;
+	width:100%;
+}
+
+#explore {
+	display:block;
+	width:30%;
+	height:3em;
+	position:absolute;
+	background-color: black;
+	top:5em;
+	opacity:.5;
+	margin-left: 1em;
+	font-size: .8em;
+}
+
+
+input {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.4em;
+	position: relative;
+	top:-.22em;
+	margin-left: .25em;
+
+}
+
+input:focus{
+	outline-color: red;
+}
+
+#search {
+	display:inline-block;
+	width:3em;
+	height:1em;
+	border-color:white;
+	border-style: solid;
+	position: relative;
+	border-right: 0px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	top:.16em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	font-size: 2.3em;
+
+}
+
+#search:hover{
+	//background-color: white;
+	color:red;
+}
+
+#gImage img {
+	width:100%;
+	
+}
+
+#motionTex{
+
+	font-family:'PT Sans Narrow', sans-serif;
+	 font-size: 5em;
+	display:block;
+	width:80%;
+	position: absolute;
+	top:0em;
+	padding-left: 10%;
+	padding-right: 10%;
+	opacity: .0;
+}
+
+
+
+
+
